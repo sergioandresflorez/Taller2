@@ -9,9 +9,16 @@
     <sprite>sprites\sprBlock</sprite>
     <sprite>sprites\sprBall</sprite>
     <sprite>sprites\sprPowerUp</sprite>
+    <sprite>sprites\sprPowerUp2</sprite>
     <sprite>sprites\sprBall2</sprite>
     <sprite>sprites\sprEnemigo</sprite>
+    <sprite>sprites\sprEnemigo2</sprite>
     <sprite>sprites\sprMeta</sprite>
+    <sprite>sprites\sprEnemigoFly</sprite>
+    <sprite>sprites\sprEnemigoFly2</sprite>
+    <sprite>sprites\sprCheckPoint</sprite>
+    <sprite>sprites\sprPortal</sprite>
+    <sprite>sprites\sprPlataforma</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -19,18 +26,29 @@
     <background>background\background2</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_death.gml</script>
+  </scripts>
   <objects name="objects">
+    <object>objects\objInicio</object>
     <object>objects\objBlock</object>
     <object>objects\objBall</object>
     <object>objects\objPowerUp</object>
     <object>objects\objEnemigo</object>
+    <object>objects\objEnemigoNoFail</object>
     <object>objects\objMeta</object>
-    <object>objects\objInicio</object>
+    <object>objects\objEnemigoFly</object>
+    <object>objects\objPowerUp2</object>
+    <object>objects\objInterfaz</object>
+    <object>objects\objCheckPoint</object>
+    <object>objects\objPortal</object>
+    <object>objects\objPlataforma</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Inicio</room>
+    <room>rooms\Initialize</room>
     <room>rooms\Nivel1</room>
     <room>rooms\Nivel2</room>
+    <room>rooms\Inicio</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
